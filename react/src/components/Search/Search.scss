@@ -1,0 +1,105 @@
+// /* Search.scss */
+// .parking-space.blinking {
+//     animation: blink 1s step-end infinite;
+//   }
+  
+//   @keyframes blink {
+//     50% {
+//       opacity: 0;
+//     //   color:rgb(0, 123, 255);
+//     }
+//   }
+
+//   .parking-spaces {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+  
+//   .parking-row {
+//     display: flex;
+//     justify-content: center;
+//     margin-bottom: 10px;
+//   }
+  
+//   .parking-space {
+//     width: 10px; // רוחב מוקטן
+//     height: 80px; // גובה מוגדל
+//     color: white;
+//     display: inline-block;
+//     margin: 5px;
+//     text-align: center;
+//     line-height: 10px; // התאמת הגובה לשורה
+//     background-color: black;
+//     cursor: pointer;
+//     border: 1px double rgb(0, 123, 255);
+//     padding: 5px; // מרווח פנימי קטן
+//     box-sizing: border-box;
+//     font-size: 8px; // גופן קטן
+//   }
+//   .parking-lot-image.large {
+//     width: 500px;
+//     height: auto;
+//   }
+  
+//   .parking-lot-image.small {
+//     width: 250px;
+//     height: auto;
+
+//   }
+  
+
+  
+/* Search.scss */
+.parking-space.blinking {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.parking-spaces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parking-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.parking-space {
+  width: 50px; /* רוחב מותאם */
+  height: 80px; /* גובה מותאם */
+  color: white; /* צבע טקסט */
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  line-height: 12px; /* התאמת הגובה לשורה */
+  background-color: black;
+  cursor: pointer;
+  border: 1px double rgb(0, 123, 255);
+  padding: 5px; /* מרווח פנימי */
+  box-sizing: border-box;
+  font-size: 10px; /* גודל גופן */
+}
+
+.parking-lot-image.large {
+  width: 500px;
+  height: auto;
+}
+
+.parking-lot-image.small {
+  width: 250px;
+  height: auto;
+}
+
+  
+  
+  
+  

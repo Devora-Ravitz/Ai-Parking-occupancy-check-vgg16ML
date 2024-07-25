@@ -1,0 +1,38 @@
+.AboutUs {
+    max-width: 800px; /* רוחב מקסימלי */
+    margin: 0 auto; /* מרכז על ידי מרווחים אוטומטיים */
+    padding: 20px;
+    color: white; /* הוספת צבע לכיתה כולה */
+  }
+  
+  .AboutUs h2 {
+    font-size: 24px;
+    color: white; /* צבע לבן לכותרות h2 */
+  }
+  
+  .AboutUs p {
+    margin-bottom: 15px;
+  }
+  
+  .AboutUs h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white; /* צבע לבן לכותרות h3 */
+  }
+  
+  .AboutUs ul {
+    margin-bottom: 20px;
+  }
+  
+  .AboutUs li {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10;
+    color: white; /* צבע לבן לאייקונים */
+  }

@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(15, 15, 15); /* הגדרת רקע שחור לכל הדף */
+}
+
+.UploudFile {
+  padding: 20px; /* מרווח סביב התוכן */
+}
+
+.parking-lots-Upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* כדי שהתמונות ישורו ברשימה אפשרית */
+}
+
+.parking-lots-Upload div {
+  flex: 0 0 30%; /* קביעת רוחב קבוע לכל תמונה, בהתאם לגודל המסך */
+  margin: 10px; /* מרווח בין התמונות */
+}
+
+.parking-lots-Upload img {
+  width: 100%; /* גודל התמונה יהיה 100% מרוחב האב אלמנט שלה */
+  height: 400px; /* כדי שהתמונה תשמור על היחסים שלה */
+  border-radius: 10px; /* סיבוב הקצוות של התמונה */
+  transition: transform 0.3s ease-in-out; /* אנימציה עבור המעבר בין המרכז לתצוגה מוגדרת */
+}
+
+.parking-lots-Upload img:hover {
+  transform: scale(1.1); /* גודל התמונה יהיה גדול יותר במעט כאשר העכבר עליה */
+}
+
+
+.loading-wheel {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 15px solid #141514; /* צבע ירוק */
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  animation: spin 2s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

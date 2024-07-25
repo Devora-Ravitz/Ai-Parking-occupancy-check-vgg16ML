@@ -1,0 +1,60 @@
+
+.home-page {
+    background-color: black; // רקע שחור
+    height: 100vh; // מילוי גובה מקרן המסך
+    p {
+      color: white; /* Set text color to white */
+    }
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  h1 {
+    color: white; // צבע טקסט לבן
+    font-size: 3rem; // גודל הכיתוב גדול יותר
+    position: relative; // כדי שנוכל להשתמש ב-position בילדים בהמשך
+    animation: bounce 0.5s infinite alternate; // אנימציה על הכיתוב
+  }
+  
+@keyframes bounce {
+    from {
+      top: 0; // התחל בגובה רגיל
+    }
+    to {
+      top: -20px; // תנועה מעלה
+      
+    }
+  }
+  
+  button {
+    background-color: white; /* רקע לבן */
+    color: black; /* צבע טקסט שחור */
+    border: none;
+    padding:30px 30px; /* גודל הכפתור הוגדל */
+    cursor: pointer;
+    margin-top: 20px;
+    border: 2px solid black; /* מסגרת שחורה מסביב לכפתור */
+    transition: transform 0.3s ease, padding 0.3s ease, border 0.3s ease; /* אנימציה על תכונות הגודל, הרווח והמסגרת */
+
+    &:hover {
+        transform: scale(1.1); /* גודל הכפתור יגדל ב-10% כאשר העכבר מוחזק מעליו */
+        padding: 20px 30px; /* גודל הכפתור יתעצם עוד קצת באנימציה */
+        border-color: white; /* מסגרת לבנה כאשר העכבר מוחזק מעליו */
+    }
+}
+
+.home-page {
+  text-align: center; /* למרכז את האלמנטים באמצעות כדי שהסרטון יהיה במרכז */
+}
+
+.video-iframe {
+  width: 1000px; /* רוחב קבוע של 1000 פיקסלים */
+  height: 600px; /* גובה קבוע של 600 פיקסלים */
+  border: none; /* להסיר את המסגרת שמסביב ל-iFrame */
+}
+

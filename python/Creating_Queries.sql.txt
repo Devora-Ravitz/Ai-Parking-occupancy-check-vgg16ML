@@ -1,0 +1,43 @@
+CREATE DATABASE IF NOT EXISTS parkinglot;  -- Create the database if it doesn't exist
+
+USE parkinglot;  -- Select the parkinglot database
+
+CREATE TABLE IF NOT EXISTS PARKINGLOT3 (
+    
+    LotNumber INT,
+    CodeParking INT,
+    Location1 INT,
+    Location2 INT,
+    Location3 INT,
+    Location4 INT,
+    AccuracyStatus BOOLEAN,
+    ImagePath VARCHAR(255),
+	FOREIGN KEY (CodeParking) REFERENCES MASTERPARKING(CodeParking)
+
+);
+CREATE TABLE IF NOT EXISTS MASTERPARKING (
+    CodeParking INT primary key,
+    ParkingId INT,
+    NameParking VARCHAR(255)
+);
+
+
+
+
+CREATE DATABASE IF NOT EXISTS parkinglot;  -- Create the database if it doesn't exist
+
+USE parkinglot;  -- Select the parkinglot database
+
+
+CREATE TABLE IF NOT EXISTS PARKINGLOT3 (
+    
+    LotNumber INT,
+    CodeParking INT,
+    Location1 INT,
+    Location2 INT,
+    Location3 INT,
+    Location4 INT,
+    AccuracyStatus BOOLEAN,
+    ImagePath VARCHAR(255)
+
+);
