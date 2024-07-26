@@ -9,7 +9,7 @@ Flask.
 **Steps in running the project:**
 
 **1**. git clone:
-https://github.com/LALIBEKE/AI--for-Parking-Occupancy-Detection.git
+https://github.com/214660235/Ai-Parking-occupancy-check-vgg16ML.git
 
 **2**. Configure the database Make sure you have MySQL installed on your computer. Create a new database and import the provided SQL schema ,the name of the sql schema: Creating_Queries_With_Coordinates.sql.txt .
 (If you want to create a rake database without coordinates then build the file Creating_Queries.sql.txt)
