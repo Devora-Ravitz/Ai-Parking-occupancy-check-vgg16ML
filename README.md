@@ -2,6 +2,7 @@ A web application for locating parking slots using the VGG16 ML model, which pro
 parking lot cameras to identify empty spots. The model was trained to recognize empty parking spaces
 through image processing in Python. Technologies used include React, CSS, HTML, Python, MySQL Server, and
 Flask.
+![image (9) (1)](https://github.com/user-attachments/assets/a182ea22-e554-4f17-9c09-3308b02ea460)
 
 
 ![Alternative text](https://drive.google.com/uc?export=view&id=1Nng-o-UHm2vPenmralCB9YydjtStA8SW)
