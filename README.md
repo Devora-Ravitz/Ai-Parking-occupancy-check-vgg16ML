@@ -1,4 +1,4 @@
-**AI-Powered Parking Slot Locator Web Applicatio**
+**AI-Powered Parking Slot Locator Web Application**
 
 A web application for locating parking slots using the VGG16 ML model, which processes real-time photos from
 parking lot cameras to identify empty spots. The model was trained to recognize empty parking spaces
